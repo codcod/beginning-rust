@@ -1,0 +1,10 @@
+== Key crates
+
+You can find curated list of crates at link:https://blessed.rs[blessed.rs].
+The following crates are good to start with:
+
+* link:https://crates.io/crates/serde[serde]
+* link:https://crates.io/crates/serde_json[serde_json]
+* link:https://crates.io/crates/thiserror[thiserror]
+* link:https://crates.io/crates/anyhow[anyhow]
+

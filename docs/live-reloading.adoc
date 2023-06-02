@@ -1,0 +1,10 @@
+== Live reloading
+
+Use `watch` command to automate reloading of code.
+
+[source,bash]
+----
+$ cargo add cargo-watch
+$ cargo watch -q -c -w src/ -x 'run -q'
+----
+

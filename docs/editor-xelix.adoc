@@ -1,0 +1,10 @@
+== Xelix editor
+
+[source,bash]
+----
+$ brew install helix
+$ brew install rust-analyzer python-lsp-server
+----
+
+Use `hx` command to open the editor.
+

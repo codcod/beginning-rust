@@ -1,0 +1,25 @@
+= Beginning Rust
+:author: codcod
+:doctype: book
+
+How to compile this book.
+
+[source,bash]
+----
+$ brew install asciidoctor
+$ sudo gem install asciidoctor-epub3 asciidoctor-pdf
+$ asciidoctor \
+      -r asciidoctor-pdf \
+      -b pdf \
+      -D build \
+      docs/main.adoc
+$ asciidoctor-epub3 -D build docs/main.adoc
+----
+
+
+include::live-reloading.adoc[]
+include::ci.adoc[]
+include::editor-vscode.adoc[]
+include::editor-xelix.adoc[]
+include::crates.adoc[]
+

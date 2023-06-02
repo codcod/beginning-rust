@@ -1,0 +1,20 @@
+== VS Code editor
+
+In `setting.json` file add the following:
+
+[source,json]
+----
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  }
+  "rust-analyzer.check.command": "clippy"
+----
+
+Useful extensions:
+
+* link:https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer[rust-analyzer]
+* link:https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml[Better TOML]
+* link:https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens[Error Lens]
+* link:https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates[crates]
+
