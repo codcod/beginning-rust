@@ -1,0 +1,14 @@
+== Install
+
+MacOS install.
+
+[source,bash]
+----
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+$ export RUSTUP_HOME=${XDG_DATA_HOME}/rustup
+$ export CARGO_HOME=${XDG_DATA_HOME}/cargo
+$ source ${CARGO_HOME}/env
+
+$ rustup component add rust-analyzer
+----

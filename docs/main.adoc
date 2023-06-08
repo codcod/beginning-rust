@@ -17,6 +17,7 @@ $ asciidoctor-epub3 -D build docs/main.adoc
 ----
 
 
+include::install.adoc[]
 include::live-reloading.adoc[]
 include::ci.adoc[]
 include::editor-vscode.adoc[]
